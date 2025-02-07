@@ -1,0 +1,47 @@
+Goals and Target Audience
+My program goals would be to implement Swing UI so that when the program is compiled it takes me to my 
+desktop home screen and opens a small window to schedule an appointment for a mobile detailing. I do 
+want the user to abide by my business hours from 9am to 3pm so I plan to make the program print out an 
+error message when the appointed schedule goes beyond my business hours. I want there to be three 
+different types of services. I want the premium service to be called “Neat Freak” but the other two, 
+I have no clue what to name them just yet. My target audience is most likely people who are busier 
+during the day. Who probably works a 9-5 job perhaps.
+
+Strength/Weakness and Future Improvement
+	After I finally finished the program I realized just how little my code was. Maybe it was the rigorous 
+trial and error but it felt as if I coded way more than I actually did. Implementing Swing UI was way 
+more difficult to do than I originally anticipated. However, implementing Swing UI became one of the 
+biggest strengths of my program. It makes the program look more visually appealing than it would have on
+an IDE console. Users would enjoy it more because it would make my business appeal more professional. On 
+the other hand, the simplicity of the program does feel like a weakness to me. Even though the appointment 
+process is seamless it does feel like it goes by way too fast. Which does make me feel a little disappointed 
+judging by how long this took me to code with Swing UI. For future improvement, I would definitely try to 
+make the program take a bit longer of a process to make an appointment. I would also  change the layout of 
+the popup bubble.
+
+
+Pseudocode
+//Imported Packages
+//Class that handles appointment logic
+	//Arrays to store plan names and corresponding prices
+	//Method to get the price based on selected plan
+	//Method to check if the time is within business hours (9 AM to 3 PM)
+		//Prevent invalid time format
+			//Return true if the time is within business hours
+//Subclass that extends PlanDetail and adds GUI functionality
+//Create a new JFrame container
+//Specify FlowLayout for the layout manager
+//Give the frame an initial size
+//Terminate the program when the user closes the application
+//Create a JComboBox for selecting the plan, using the 'plans' array from PlanDetail
+//Create a JTextField for user to input time
+//Make "Accept" button
+//Add components to the content pane
+//Create a label to show the message
+//Display the frame
+     //Handle button events
+    	//Check the time entered by the user
+		//Time is within business hours
+		//Time is outside business hours
+	//Set the message on the label
+//Create the frame on the event dispatching thread
